@@ -1,0 +1,120 @@
+/*
+* Emily Torres
+* 1/17/19
+* Final Project 
+*/
+
+/* The universal selector */
+
+* {
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Body attributes here */
+
+body {
+    width: 90%;
+    margin: auto; }
+
+/* I centered the header here and set the color */
+header {
+    text-align: center;
+    background-color: #f96c6c;}
+
+#maintitle {
+    color: #fee7e7;}
+
+#sidebarA {
+    /* I set the font-size and gave the sidebar a width and height*/
+    font-size: 0.9em;
+    width: 17%; 
+    height: 500px;
+    
+    /* I floated the section to the left and centered the text */
+    float: left;
+    text-align: center;
+    
+    /* I gave the section a border only on the left and right and set the background color to match the main and sidebar B */
+    border-left: 3px solid #f96c6c;
+    border-right: 3px solid #f96c6c;
+    background-color: #fee6e6;}
+
+/* I used a class so that I could underline both of the titles in sidebar A and B */
+.sideh2 {
+    text-decoration: underline;}
+
+/* I set the width and height of the picture, gave it a margin and border, and floated it left so that the text would wrap around it */
+#malala1 {
+    width: 170px; 
+    height: 170px;
+    margin: 0px 15px 5px 10px;
+    border: 4px solid #CCA615;
+    float: left;}
+
+/* I set the font and margin for the <p> elements*/
+p {
+    font-family: Helvetica, sans-serif, Arial;
+    margin: 10px;}
+
+h1 {
+    margin: 8px;}
+
+h2 {
+    margin: 10px;}
+
+/* I set the font and margins for the subtitles that are under sidebar A */
+h4 {
+    margin: 15px 0px 3px 0px;
+    font-family: Helvetica, sans-serif, Arial;}
+
+a:link {
+    color: #f96c6c;
+    text-decoration: underline;}
+
+a:visited {
+    color: #620404;}
+
+/* Here I gave the main section a width and height and a background color. I floated the section to the left and set the font size */
+main {
+    font-size: 1.01em;
+    width: 62%; 
+    height: 500px;
+    float: left; 
+    background-color: #fee6e6;}
+
+#sidebarB {
+    width: 20%; 
+    height: 500px;
+    /* I floated sidebar B to the right so that the three columns would appear correctly on the webpage */
+    float: right; 
+    text-align: center;
+    border-left: 3px solid #f96c6c; 
+    border-right: 3px solid #f96c6c;
+    background-color: #fee6e6;} 
+
+#malala2 {
+    width: 185px; 
+    height: 135px;
+    margin: 0px 10px 0px 10px;
+    border: 4px solid #CCA615;}
+
+footer {
+    clear: both;
+    background-color: #fee7e7;
+    border-top: 10px solid white;}
+
+/* Here I specified the margin for the footer title */
+#footertitle {
+    margin: 8px;}
+
+/* I gave the links a class so that I could give them all of the sources a margin to the left */
+.sources {
+    margin-left: 30px;}
+
+/* I floated the disclaimer to the right and gave it a different font color */
+#footer {
+    color: #f96c6c;
+    float: right; }
